@@ -27,6 +27,7 @@ const InputForm = ({calcular}) => {
                 <label>Quantidade de cães pequenos:</label>
                 <input 
                 type="number"
+                min={0}
                 value={pequenos}
                 onChange={(e) =>setPequenos(e.target.value)} 
                 required />
@@ -35,6 +36,7 @@ const InputForm = ({calcular}) => {
                 <label>Quantidade de cães grandes:</label>
                 <input 
                 type="number"
+                min={0}
                 value={grandes}
                 onChange={(e) =>setGrandes(e.target.value)} 
                 required />
