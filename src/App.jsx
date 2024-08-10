@@ -15,15 +15,15 @@ function App () {
       return;
     }    
 
-    const diaSemana = new Date(data).getDay(); // 6 = Domingo 5 = Sábado, apos varios testes esta voltando assim!
-  
+    const diaSemana = new Date(data).getUTCDay(); // 0 = Domingo 6 = Foi utilizado getUTCDay para garantir data caso haja mudanças com fuso horario.
+    
     // Calculando preço Meu Canino Feliz
-    const precoMeuCaninoFeliz = diaSemana === 5 ||  diaSemana === 6
+    const precoMeuCaninoFeliz = diaSemana === 0 ||  diaSemana === 6
     ? (pequenos * 24) + (grandes * 48)
     : (pequenos * 20) + (grandes * 40);
 
     // Calculando preço Vai Rex
-    const precoVaiRex = diaSemana === 5|| diaSemana === 6
+    const precoVaiRex = diaSemana === 0|| diaSemana === 6
   
     ? (pequenos * 20) + (grandes * 55)
     : (pequenos * 15) + (grandes * 50);
