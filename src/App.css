@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 20px auto;
+  padding: 2rem;
+  text-align: center;  
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+  background-color: rgb(146, 24, 24);  
+}
+
+.App {
+  margin: 0 auto;
+  padding: 10px;
+  color: rgb(255, 255, 255);   
+}
+
+.App h1 { 
+  text-transform: uppercase;
+  color: beige;
+}
+
+.App p {
+  font-variant: small-caps;
+  font-size: 25px;
+}
+
+.App img {
+  width: 500px;
+  height: 300px;
+}
+
+table {  
+  width: 70%;
+  margin: 10px auto;   
+  border-collapse: collapse;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+th, td {
+  border: 1px solid #2d3046;
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(146, 4, 4);
+  ;
+}
+
+th {
+  
+  background-color: #2d3046;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .App img {
+    width: 100%;
+    height: auto;
+  }
+
+  table {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  th, td {
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .App p {
+    font-size: 18px;
+  }
+
+  .App h1 {
+    font-size: 30px;
+  }
+}
+
