@@ -34,7 +34,7 @@ Para iniciar o projeto localmente, utilize o comando:
 
 🧠 **Decisões de Projeto**
 
-**Lógica Simples e Direta:** A lógica do projeto foi implementada de forma simples e clara, com o código principal concentrado em App.jsx para facilitar a compreensão.
+**Lógica Simples:** A lógica do projeto foi implementada de forma simples e clara, com o código principal concentrado em App.jsx para facilitar a compreensão.
   Além disso, o projeto foi organizado em componentes adicionais, como InputForm.jsx para capturar dados de entrada, ExibirResultados.jsx para exibir o resultado final, e ListaDePetshops.jsx para gerenciar e mostrar informações dos petshops.
   Essa estrutura modular melhora a legibilidade e escalabilidade do código, mantendo-o acessível e fácil de manter.<br>
 **Uso de getUTCDay() para Identificar Dias da Semana:** A função getUTCDay() é utilizada para determinar o dia da semana, identificando se é um dia útil ou fim de semana, para garantir a correta identificação independentemente do fuso horário do usuário. o que influencia os preços dos banhos. para garantir a correta identificação do dia da semana independentemente do fuso horário do usuário.<br>
