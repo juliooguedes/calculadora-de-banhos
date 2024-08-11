@@ -16,7 +16,7 @@ Este projeto tem como objetivo auxiliar o Sr. Eduardo, proprietário de um canil
     Navegue até o diretório do projeto e instale as dependências necessárias:
 
    ```bash
-   cd nome-do-repositorio
+   cd calculadora-de-banhos
    npm install
 
 3. **Executar o Projeto**
