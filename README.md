@@ -25,7 +25,6 @@ Para iniciar o projeto localmente, utilize o comando:
 
       npm start
 
-O sistema estará disponível no navegador em http://localhost:3000.
 
 📋 **Lista de Premissas Assumidas**
 
