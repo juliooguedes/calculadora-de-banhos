@@ -16,7 +16,7 @@ function App() {
       return;
     }
 
-    const diaSemana = new Date(data).getUTCDay(); // 0 = Domingo 6 = Foi utilizado getUTCDay para garantir data caso haja mudanças com fuso horario.
+    const diaSemana = new Date(data).getUTCDay(); // 0 = Domingo 6 = Foi utilizado getUTCDay para garantir a data correta, mesmo em caso alterações de fuso horário.
 
     // Calculando preço Meu Canino Feliz
     const precoMeuCaninoFeliz = diaSemana === 0 || diaSemana === 6

@@ -3,23 +3,23 @@
 #root {
   max-width: 1280px;
   margin: 20px auto;
-  padding: 2rem;
-  text-align: center;  
+  padding: 1rem;
+  text-align: center;
   font-family: 'Roboto', sans-serif;
 }
 
 
 body {
-  background-color: rgb(146, 24, 24);  
+  background-color: rgb(146, 24, 24);
 }
 
 .App {
   margin: 0 auto;
   padding: 10px;
-  color: rgb(255, 255, 255);   
+  color: rgb(255, 255, 255);
 }
 
-.App h1 { 
+.App h1 {
   text-transform: uppercase;
   color: beige;
 }
@@ -30,19 +30,20 @@ body {
 }
 
 .App img {
-  width: 500px;
+  width: 600px;
   height: 300px;
 }
 
-table {  
+table {
   width: 70%;
-  margin: 10px auto;   
+  margin: 10px auto;
   border-collapse: collapse;
   margin: 50px auto;
   border-radius: 10px;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #2d3046;
   padding: 8px;
   text-align: center;
@@ -51,7 +52,7 @@ th, td {
 }
 
 th {
-  
+
   background-color: #2d3046;
   font-weight: bold;
 }
@@ -72,7 +73,8 @@ th {
     margin: 20px 0;
   }
 
-  th, td {
+  th,
+  td {
     padding: 5px;
     font-size: 14px;
   }
@@ -85,4 +87,3 @@ th {
     font-size: 30px;
   }
 }
-

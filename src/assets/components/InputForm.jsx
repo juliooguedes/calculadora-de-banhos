@@ -1,45 +1,45 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import './InputForm.css'
 
-const InputForm = ({calcular}) => {
+const InputForm = ({ calcular }) => {
     const [data, setData] = useState('');
     const [pequenos, setPequenos] = useState(0);
     const [grandes, setGrandes] = useState(0);
 
-// Função para enviar os dados noo botão calcular 
+    // Função para enviar os dados noo botão calcular 
 
-    const enviar = (evento) => {
+    const aoEnviar = (evento) => {
         evento.preventDefault();
         calcular(data, pequenos, grandes);
     };
 
     return (
-        <form onSubmit={enviar}>
+        <form onSubmit={aoEnviar}>
             <div>
                 <label>Data:</label>
                 <input
-                type="date"
-                value={data}
-                onChange={(e) =>setData(e.target.value)}
-                required />       
+                    type="date"
+                    value={data}
+                    onChange={(e) => setData(e.target.value)}
+                    required />
             </div>
             <div>
                 <label>Quantidade de cães pequenos:</label>
-                <input 
-                type="number"
-                min={0}
-                value={pequenos}
-                onChange={(e) =>setPequenos(e.target.value)} 
-                required />
+                <input
+                    type="number"
+                    min={0}
+                    value={pequenos}
+                    onChange={(e) => setPequenos(e.target.value)}
+                    required />
             </div>
             <div>
                 <label>Quantidade de cães grandes:</label>
-                <input 
-                type="number"
-                min={0}
-                value={grandes}
-                onChange={(e) =>setGrandes(e.target.value)} 
-                required />
+                <input
+                    type="number"
+                    min={0}
+                    value={grandes}
+                    onChange={(e) => setGrandes(e.target.value)}
+                    required />
             </div>
             <div>
                 <button className='buttonCalcular' type="submits">Calcular</button>
