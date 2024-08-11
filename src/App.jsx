@@ -11,7 +11,7 @@ function App() {
   const calcularMelhorPetShop = (data, pequenos, grandes) => {
 
     // Verificar se a quantidade de cães é zero
-    if (pequenos <= 0 && grandes <= 0) {
+    if (pequenos === 0 && grandes === 0) {
       setResultado(null); // Não exibir resultado
       return;
     }
@@ -52,7 +52,7 @@ function App() {
       <InputForm calcular={calcularMelhorPetShop} />
       <ExibirResultado resultado={resultado} />
       <ListaPetshops />
-      <img src={Caes} alt="Caes Juntos" />
+      <img src={Caes} alt="Varios cães juntos" />
     </div>
   );
 };

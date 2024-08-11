@@ -25,7 +25,6 @@ Para iniciar o projeto localmente, utilize o comando:
 
       npm start
 
-
 📋 **Lista de Premissas Assumidas**
 
 **Distância é relevante apenas em caso de empate nos preços:** O petshop mais próximo será escolhido apenas se dois ou mais petshops tiverem o mesmo preço total.<br>
