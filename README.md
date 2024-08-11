@@ -9,7 +9,7 @@ Este projeto tem como objetivo auxiliar o Sr. Eduardo, proprietário de um canil
    Clone o repositório para a sua máquina local usando o comando:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/juliooguedes/calculadora-de-banhos.git
  
 2. **Instalar as Dependências**
 
