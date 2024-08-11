@@ -23,7 +23,7 @@ Este projeto tem como objetivo auxiliar o Sr. Eduardo, proprietário de um canil
 
 Para iniciar o projeto localmente, utilize o comando:
 
-      npm start
+      npm run dev
 
 📋 **Lista de Premissas Assumidas**
 
